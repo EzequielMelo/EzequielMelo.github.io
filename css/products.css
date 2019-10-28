@@ -29,6 +29,7 @@ li{
   color: #F9F9F9;
 }
 
+/*Header*/
 .header1{
  background: rgb(24, 24, 27);
 }
@@ -60,7 +61,9 @@ li{
  width: 60%;
  margin: 0 auto;
 }
+/*Fin Header*/
 
+/*Contenido*/
 .contenedorgen {
   background: #fff;
   width: 65%;
@@ -119,7 +122,9 @@ main h2{
   width: 25%;
 
 }
+/*Fin Contenido*/
 
+/*Footer*/
 .footer{
   border-top: solid 3px rgb(18, 18, 20);
   background: rgba(24, 24, 27, 0.75);
@@ -165,6 +170,7 @@ main h2{
  border-right: solid 1% rgb(18, 18, 20);
  background-color: rgb(53, 73, 94);
 }
+/*Fin Footer*/
 
 .btn{
   color: #F9F9F9;

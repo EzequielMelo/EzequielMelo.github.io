@@ -29,6 +29,7 @@ li{
   color: #F9F9F9;
 }
 
+/*Header*/
 .header1{
  background: rgb(24, 24, 27);
 }
@@ -60,11 +61,10 @@ li{
  width: 60%;
  margin: 0 auto;
 }
+/* Fin Header*/
 
 
-
-
-
+/*Contenido*/
 .holder{
 	max-width: 60%;
 	margin: 0 auto;
@@ -75,7 +75,7 @@ li{
 }
 
 .columna{
-	width: 50%;
+	width: 65%;
 	padding: 0 0.625em;
 	box-sizing: border-box;
 }
@@ -97,8 +97,6 @@ li{
   padding-left: 5%;
   padding-bottom: 1%;
 }
-
-
 
 .columna.right ul li{
 	font-size: 0.7em;
@@ -136,22 +134,10 @@ li{
 .formulario .acciones{
 	text-align: center;
 }
+/*Fin Contenido*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Footer*/
 .footer{
   border-top: solid 3px rgb(18, 18, 20);
   background: rgba(24, 24, 27, 0.75);
@@ -197,3 +183,4 @@ li{
  border-right: solid 1% rgb(18, 18, 20);
  background-color: rgb(53, 73, 94);
 }
+/*Fin Footer*/

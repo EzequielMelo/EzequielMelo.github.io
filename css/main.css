@@ -29,7 +29,8 @@ li{
   color: #F9F9F9;
 }
 
-.header1{
+/*Header*/
+ .header1{
   background: rgb(24, 24, 27);
   }
 
@@ -54,13 +55,15 @@ li{
   border-bottom: solid 3px rgb(18, 18, 20);
   background: #18181B;
   font-family: 'Source Sans Pro', sans-serif;
-}
+ }
 
  .navbar{
   width: 60%;
   margin: 0 auto;
  }
+/* Fin Header*/
 
+/*Contenido*/
  .products{
    margin: 0 auto;
    width: 64%;
@@ -79,7 +82,9 @@ li{
    text-align: center;
    margin-bottom: 1%;
  }
+/*Fin Contenido*/
 
+/*Footer*/
  .footer{
    border-top: solid 3px rgb(18, 18, 20);
    background: rgba(24, 24, 27, 0.75);
@@ -92,19 +97,18 @@ li{
    width: 65%;
    margin-top: 1%;
  }
-
  .Informacion{
    width: 33%;
    text-align: center;
    margin-left: 1%;
    margin-bottom: 3%;
  }
-.Informacion h3{
+ .Informacion h3{
    border-right: solid 1% rgb(18, 18, 20);
    background-color: rgb(53, 73, 94);
  }
 
- .Nosotros{
+.Nosotros{
   width: 33%;
   text-align: center;
   margin-left: 1%;
@@ -125,18 +129,18 @@ li{
   border-right: solid 1% rgb(18, 18, 20);
   background-color: rgb(53, 73, 94);
 }
+/*Fin Footer*/
 
-
- .btn{
+.btn{
    color: #F9F9F9;
  }
 
- #carouselSlidesOnly{
+#carouselSlidesOnly{
    animation-duration: 4s;
    animation-name: slidein;
  }
 
- @keyframes slidein {
+@keyframes slidein {
    from {
      margin-left: 100%;
      width: 100%
