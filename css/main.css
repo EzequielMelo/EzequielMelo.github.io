@@ -47,7 +47,7 @@ li{
   }
 
 .searchbar{
-  width: 80%;
+  width: 85%;
   font-family: 'Source Sans Pro', sans-serif;
   }
 
@@ -222,15 +222,12 @@ li{
    }
    .infocontainer li{
       font-size: 2.3vw;
-      text-align: left;
     }
    .infocontainer p{
       font-size: 2.3vw;
-      text-align: left;
     }
     .infocontainer h3{
        font-size: 3vw;
-       text-align: left;
      }
 
  }
@@ -249,6 +246,15 @@ li{
 .infocontainer{
   width: 100%;
 }
+.infocontainer li{
+   font-size: 2.3vw;
+ }
+.infocontainer p{
+   font-size: 2.3vw;
+ }
+ .infocontainer h3{
+    font-size: 3vw;
+  }
 
 }
 

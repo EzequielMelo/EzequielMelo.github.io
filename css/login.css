@@ -184,3 +184,62 @@ li{
  background-color: rgb(53, 73, 94);
 }
 /*Fin Footer*/
+
+/*Dispositivos pequeños*/
+@media screen and (max-width: 480px) and (min-width: 0px){
+  .Contenedor{
+    width: 100%;
+  }
+
+  .products{
+    width: 100%;
+  }
+  .contenedorgen{
+    width: 100%;
+  }
+  .logo{
+    width: 20vw;
+  }
+  .infocontainer{
+    width: 100%;
+  }
+  .infocontainer li{
+     font-size: 2.3vw;
+   }
+  .infocontainer p{
+     font-size: 2.3vw;
+   }
+   .infocontainer h3{
+      font-size: 3vw;
+    }
+
+}
+
+/*Dispositivos medianos*/
+@media screen and (max-width:1008px) and (min-width: 479px){
+.Contenedor{
+    width: 100%;
+  }
+.products{
+ width: 100%;
+ }
+.contenedorgen{
+ width: 100%;
+}
+.logo{
+ width: 20vw;
+}
+.infocontainer{
+ width: 100%;
+}
+.infocontainer li{
+  font-size: 2.3vw;
+}
+.infocontainer p{
+  font-size: 2.3vw;
+}
+.infocontainer h3{
+   font-size: 3vw;
+ }
+
+}
