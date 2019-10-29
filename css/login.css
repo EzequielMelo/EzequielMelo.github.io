@@ -72,6 +72,8 @@ li{
   height: auto;
   margin-top: 2%;
   margin-bottom: 3%;
+  background-color: rgba(24, 24, 27, 0.75);
+  border-radius: 15px;
 }
 
 .columna{
@@ -86,6 +88,7 @@ li{
 
 .columna.left h2{
   padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .columna.right p{
@@ -96,6 +99,7 @@ li{
 .columna.right h2{
   padding-left: 5%;
   padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .columna.right ul li{
