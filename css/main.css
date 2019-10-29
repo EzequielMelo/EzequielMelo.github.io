@@ -86,7 +86,6 @@ li{
 
 .NewProducts .row .col-lg-12{
    background-color: rgb(53, 73, 94);
-   width: 50%;
    margin: 0 auto;
  }
 
@@ -130,13 +129,11 @@ li{
   display: flex;
 }
 
-
 /* control image height */
 .card-img-top-250 {
   max-height: 250px;
   overflow:hidden;
 }
-
 
 .card-header{color:dodgerblue}
 /*Fin Contenido*/
@@ -155,6 +152,17 @@ li{
    width: 65%;
    margin-top: 1%;
  }
+
+.infocontainer li{
+   font-size: 0.7vw;
+   text-align: left;
+ }
+
+.infocontainer p{
+   font-size: 0.7vw;
+   text-align: left;
+ }
+
 
 .Informacion{
    width: 33%;
@@ -208,6 +216,9 @@ li{
    }
    .logo{
      width: 20vw;
+   }
+   .infocontainer{
+     width: 100%;
    }
 
  }
