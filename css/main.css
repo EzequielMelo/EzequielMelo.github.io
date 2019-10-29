@@ -154,12 +154,12 @@ li{
  }
 
 .infocontainer li{
-   font-size: 0.7vw;
+   font-size: 1vw;
    text-align: left;
  }
 
 .infocontainer p{
-   font-size: 0.7vw;
+   font-size: 1vw;
    text-align: left;
  }
 
@@ -173,7 +173,7 @@ li{
  .Informacion h3{
    border-right: solid 1% rgb(18, 18, 20);
    background-color: rgb(53, 73, 94);
-   font-size: 1.5vw;
+   font-size: 1.7vw;
  }
 
 .Nosotros{
@@ -185,7 +185,7 @@ li{
   .Nosotros h3{
   border-right: solid 1% rgb(18, 18, 20);
   background-color: rgb(53, 73, 94);
-  font-size: 1.5vw;
+  font-size: 1.7vw;
 }
 
 .Contacto{
@@ -197,7 +197,7 @@ li{
   .Contacto h3{
   border-right: solid 1% rgb(18, 18, 20);
   background-color: rgb(53, 73, 94);
-  font-size: 1.5vw;
+  font-size: 1.7vw;
 }
 /*Fin Footer*/
 
@@ -207,7 +207,7 @@ li{
 
 
  /*Dispositivos pequeños*/
- @media screen and (max-width: 480px){
+ @media screen and (max-width: 480px) and (min-width: 0px){
    .products{
      width: 100%;
    }
@@ -222,6 +222,28 @@ li{
    }
 
  }
+
+/*Dispositivos medianos*/
+@media screen and (max-width:1008px) and (min-width: 479px){
+  .products{
+  width: 100%;
+  }
+.Contenedor{
+  width: 100%;
+}
+.logo{
+  width: 20vw;
+}
+.infocontainer{
+  width: 100%;
+}
+
+}
+
+
+
+
+
 
 
 
