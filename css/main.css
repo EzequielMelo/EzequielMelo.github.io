@@ -154,12 +154,12 @@ li{
  }
 
 .infocontainer li{
-   font-size: 1vw;
+   font-size: 0.8vw;
    text-align: left;
  }
 
 .infocontainer p{
-   font-size: 1vw;
+   font-size: 0.8vw;
    text-align: left;
  }
 
@@ -220,6 +220,18 @@ li{
    .infocontainer{
      width: 100%;
    }
+   .infocontainer li{
+      font-size: 2.3vw;
+      text-align: left;
+    }
+   .infocontainer p{
+      font-size: 2.3vw;
+      text-align: left;
+    }
+    .infocontainer h3{
+       font-size: 3vw;
+       text-align: left;
+     }
 
  }
 
