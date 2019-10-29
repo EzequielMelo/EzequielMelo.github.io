@@ -82,7 +82,7 @@ li{
    padding-top: 3%;
  }
 
- .NewProducts div div h2{
+ .NewProducts .row .col-lg-12{
    background-color: rgb(53, 73, 94);
  }
 
