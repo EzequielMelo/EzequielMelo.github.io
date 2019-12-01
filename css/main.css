@@ -1,3 +1,4 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 html {
   color: #000000;
   font-size: 1em;
@@ -10,7 +11,6 @@ body{
   background-image: url("img/fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 p{
@@ -28,7 +28,6 @@ h3{
 li{
   color: #F9F9F9;
 }
-
 
 /*Header*/
 .header1{
